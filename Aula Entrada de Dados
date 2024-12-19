@@ -1,0 +1,47 @@
+using System;
+
+namespace Course
+{
+ class Program 
+  {
+    static void Main(String[] args)
+    {
+      
+      string frase = Console.ReadLine();
+      Console.WriteLine("Você digitou: " + frase);
+
+       string s = Console.ReadLine();
+
+       string[] v = s.split(' '); // alternativa string[] v = Console.ReadLine().split(' '); simplificada 
+       string a = v[0];
+       string b = v[1];
+       string c = v[2];
+
+       Console.WriteLine(a);
+       Console.WriteLine(b);
+       Console.WriteLine(c);
+
+      int n1 = int.Parse(Console.ReadLine()); // Console.ReadLine(); só aceita string  transformando em int
+      char genero =  char.Parse(Console.ReadLine()); // Console.ReadLine(); transforamdno em char 
+      double altura = double.Parse(Console.ReadLine()); // Console.ReadLine(); transforamdno em double
+      string[] vet = Console.ReadLine().Split(' ')
+      string nome = vet[0];
+      char sexo = char.Parse(vet[1]);
+      int idade = int.Parse(vet[2]);
+      double tamanho = double.Parse(vet[3]);
+
+        Console.WriteLine(n1);
+        Console.WriteLine(genero);
+        Console.WriteLine(altura);
+        Console.WriteLine(nome);
+        Console.WriteLine(sexo);
+        Console.WriteLine(idade);
+        Console.WriteLine(tamanho);
+
+
+
+
+      
+    }
+  }
+}

@@ -1,0 +1,35 @@
+using System;
+
+namespace Course
+{
+ class Program 
+  {
+    static void Main(String[] args)
+    {
+        int a = 10;
+        System.Console.WriteLine(a);
+        a += 2;
+        System.Console.WriteLine(a);
+        a *= 3;
+        System.Console.WriteLine(a);
+
+        string s = "ABC";
+        System.Console.WriteLine(s);
+        s += "DEF";
+        System.Console.WriteLine(s);
+
+        int b = 10;
+        a++;
+        System.Console.WriteLine(b);
+
+        int c = 10;
+        a--;
+        System.Console.WriteLine(c);
+        
+
+
+
+
+    }
+  }
+}

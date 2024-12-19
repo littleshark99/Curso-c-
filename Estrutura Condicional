@@ -1,0 +1,42 @@
+using System;
+
+namespace Course
+{
+ class Program 
+  {
+    static void Main(String[] args)
+    {
+      
+      Console.WriteLine("Entre com um número inteiro: ");
+      int x = int.Parse(Console.Readline());
+
+
+     if (x % 2 == 0){
+        Console.WriteLine("PAR!");
+     }else{
+        Console.WriteLine("Impar!");
+      }
+        
+         Console.WriteLine("-------------------------------");
+
+
+       Console.WriteLine("Digite que horas são : ");
+        int y = int.Parse(Console.Readline());
+
+        if(y < 12 ){
+          Console.WriteLine("Bom Dia");
+        }
+
+        else if(y < 18){
+          Console.WriteLine("Bom Tarde");
+        }
+        else{
+          Console.WriteLine("Bom Noite");
+        }
+      
+
+
+      
+    }
+  }
+}

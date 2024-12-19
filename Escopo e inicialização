@@ -1,0 +1,27 @@
+using System;
+
+namespace Course
+{
+ class Program 
+  {
+    static void Main(String[] args)
+    {
+      
+      int x = 10; // int x; não existe, tem que iniciar a variavel . 
+
+      double preco = double.Parse(Console.ReadLine());
+      double desconto = 00.0;
+
+      if(preco > 100.0){
+          desconto = preco * 0.1;
+      }
+
+        Console.WriteLine(desconto);
+
+
+
+
+      
+    }
+  }
+}

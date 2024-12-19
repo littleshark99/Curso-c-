@@ -1,0 +1,35 @@
+using System; 
+using System.Globalization;
+
+namespace Course
+{
+ class Program 
+  {
+    static void Main(String[] args)
+    {
+        
+      string produto1 = "computador";
+      string produto2 = "mesa de computador";
+
+      byte idade = 30;
+      int codigo = 5290;
+      char genero = 'm';
+
+      double preco1 = 2100.0;
+      double preco2 = 650.0;
+      double medida = 53.234567;
+  
+        Console.WriteLine(produto1 +", cujo preço é " + preco1);
+        Console.WriteLine(produto2 +", cujo preço é " + preco2);
+        Console.WriteLine("Registro: " + idade +"anos de idade, código" + codigo + " e genreto " + genero);
+        Console.WriteLine("Medida com oito casas decimais: " + medida);
+        Console.WriteLine("Medida arrendodada 3 caas decimais : " + medida.ToString("F3"));
+        Console.WriteLine("Medida 2 casas decimais : " + medida.ToString("F2"));
+        Console.WriteLine("Medida arrendodada 3 caas decimais : " + medida.ToString("F3",CultureInfo.InvariantCulture));
+
+
+         
+       
+    }
+  }
+}

@@ -1,0 +1,30 @@
+using System;
+
+namespace Course
+{
+ class Program 
+  {
+    static void Main(String[] args)
+    {
+      
+      string nome = Console.ReadLine();
+      int quarto = int.Parse(Console.ReadLine());
+      double preco = double.Parse(Console.ReadLine());
+      string [] vet = Console.ReadLine().split('');
+      string a = vet[0];
+      int b = int.Parse(vet[1]);
+      double c = double.Parse(vet[2]);
+
+
+      Console.WriteLine("Seu nome é " + nome);
+      Console.WriteLine("Tem  " + quarto);
+      Console.WriteLine("Seu ultimo nome : " + a);
+      Console.WriteLine("idade : " + b);
+      Console.WriteLine("altura : " + c);     
+
+
+
+      
+    }
+  }
+}

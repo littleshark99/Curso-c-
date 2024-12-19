@@ -1,0 +1,25 @@
+using System;
+
+namespace Course
+{
+ class Program 
+  {
+    static void Main(String[] args)
+    {
+      
+      float x;
+      double y;
+
+      x = 5.1;
+      y = (float)x;
+
+      double a;
+      int b;
+
+      a = 5.1;
+      b = (int)a;
+
+      
+    }
+  }
+}
