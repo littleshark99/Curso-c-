@@ -1,0 +1,56 @@
+using System;
+using System.Globalization;
+using System.Runtime.CompilerServices;
+using Teste;
+
+
+namespace Course
+{
+    class Program
+    {
+        static void Main(String[] args)
+        {
+
+            Pessoa p1, p2;
+
+            p1 = new Pessoa();
+            p2 = new Pessoa();
+
+            Console.WriteLine("escreva primeira pessoa");
+            Console.Write("escreva o nome : ");
+            p1.Nome = Console.ReadLine();
+            Console.Write("escreva o idade : ");
+            p1.Idade =int.Parse(Console.ReadLine());
+            Console.WriteLine("escreva segunda pessoa pessoa");
+            Console.Write("escreva o nome : ");
+            p2.Nome  = Console.ReadLine();
+            Console.Write("escreva o idade : ");
+            p2.Idade =int.Parse(Console.ReadLine());
+
+            Console.WriteLine("dados da primeira pessoa");
+            Console.WriteLine(p1.Nome);
+            Console.WriteLine(p1.Idade);
+            Console.WriteLine("dados da segunda pessoa");   
+            Console.WriteLine(p2.Nome);
+            Console.WriteLine(p2.Idade);
+
+            if (p1.Idade > p2.Idade)
+            {
+               Console.WriteLine("pessoa mais velha : " + p1.Nome);
+            }
+           else {
+               Console.WriteLine("pessoa mais velha : " + p2.Nome);    
+           }
+
+
+
+
+
+
+
+
+
+
+        }
+    }
+}
