@@ -1,0 +1,11 @@
++---------------------------+
+|         Retangulo          |
++---------------------------+
+| - largura: double         |
+| - altura: double          |
+| - diagonal: double        |
++---------------------------+
+| + Area(): double          |
+| + Perimetro(): double     |
+| + Diagonal(): double      |
++---------------------------+
