@@ -1,0 +1,11 @@
++---------------------------+
+|         Produto            |
++---------------------------+
+| - nome: String             |
+| - preco: double            |
+| - quantidade: int          |
++---------------------------+
+| + valortotalemestoque(): int |
+| + adicionarproduto(quanty: int): void |
+| + retirarproduto(quanty: int): void  |
++---------------------------+
