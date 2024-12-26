@@ -1,0 +1,10 @@
++----------------------------+
+|        Funcionario          |
++----------------------------+
+| - nome: String              |
+| - salarioBruto: double      |
+| - imposto: double           |
++----------------------------+
+| + salarioLiquido(): double  |
+| + aumentarSalario(porcentagem: double): void 
++----------------------------+
