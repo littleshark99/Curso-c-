@@ -1,0 +1,10 @@
++--------------------------------+
+|         ContaBancaria          |
++--------------------------------+
+| - numero: Integer             |
+| - titular: String             |
+| - saldo: Double               |
++--------------------------------+
+| + Deposito(): Void            |
+| + Saque(quantia: Double): Void |
++--------------------------------+
