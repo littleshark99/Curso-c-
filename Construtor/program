@@ -1,0 +1,45 @@
+using System;
+using System.Globalization;
+using System.Runtime.CompilerServices;
+using Teste;
+
+
+namespace Course
+{
+    class Program
+    {
+        static void Main(String[] args)
+        {
+
+            
+
+            Console.WriteLine("Entre os dados do produto : ");
+            Console.Write("Nome: ");
+            string nome = Console.ReadLine();
+            Console.Write("preço: ");
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Quantidade no estoque: ");
+            int quantidade = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Produto p = new Produto(nome, preco, quantidade);
+            Console.WriteLine("Dados do produto : " + p);
+
+
+            Console.Write("Digite a quantidade para ser adicionado ao estoque: ");
+            int qte = int.Parse(Console.ReadLine());
+            p.AdicionarProdutos(qte);
+            Console.WriteLine();
+            Console.WriteLine("Dados do produto : " + p);
+
+            Console.Write("Digite a quantidade para ser removido do estoque: ");
+            qte = int.Parse(Console.ReadLine());
+            p.RemoverProdutos(qte);
+
+            Console.WriteLine();
+            Console.WriteLine("Dados do produto : " + p);
+
+
+
+        }
+    }
+}
